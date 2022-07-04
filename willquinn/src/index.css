@@ -1,6 +1,15 @@
-.tint{
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&family=Ultra&display=swap');
+
+/* CSS HEX 
+--blue-sapphire: #05668dff; white text
+--metallic-seaweed: #028090ff; white text
+--persian-green: #00a896ff; white text
+--mountain-meadow: #02c39aff; white text
+--pale-spring-bud: #f0f3bdff; black text */
+
+/*.tint{
 height: 100%;
-background-color: rgba(0,0,0,0.8);
+background-color: #000000cc;
 width: 100%;
 top: 0;
 left: 0;
@@ -8,4 +17,59 @@ object-fit: cover;
 padding: none;
 position: fixed;
 z-index: -1;
+}*/
+.animatedGradient {
+  animation: animateBg 10s linear infinite;
+  background-image: linear-gradient(0deg,#05668d,#028090,#00a896,#02c39a,#05668d,#028090);
+  background-size: 100% 500%;
+  z-index: -1;
+  padding: 3%;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 0% 100%; }
+}
+.projects{
+    background-color: #f0f3bdff;
+}
+body{
+font-family: 'Ultra', serif;
+margin: 0;
+}
+.typographyHeading{
+font-family: 'Ultra', serif!important;
+font-size: 1.8rem!important;
+color: "#fff"!important;
+text-align: center;
+}
+.typographyBody{
+font-family: 'Slabo 27px', serif!important;
+font-size: 1.5rem!important;
+color: "#fff"!important;
+text-align: center;
+}
+.button{
+font-family: 'Ultra', serif!important;
+font-size: 1rem!important;
+}
+.pageHeading{
+font-family: 'Ultra', serif!important;
+font-size: 4rem!important;
+text-align: center;
+margin-top: 10%;
+}
+.toolbar {
+display: "flex";
+background-color: "transparent";
+color: "transparent";
+margin-left: 1%;
+}
+.barLink {
+font-family: 'Ultra', serif!important;
+font-size: 1.5rem;
+margin-inline: 3%;
+text-shadow: 0 0 15px #FFFFFF;
+}
+.navLinks{
+  margin-left: 65%;
 }
