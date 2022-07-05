@@ -1,36 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&family=Ultra&display=swap');
 
-/* CSS HEX 
---blue-sapphire: #05668dff; white text
---metallic-seaweed: #028090ff; white text
---persian-green: #00a896ff; white text
---mountain-meadow: #02c39aff; white text
---pale-spring-bud: #f0f3bdff; black text */
-
-/*.tint{
-height: 100%;
-background-color: #000000cc;
-width: 100%;
-top: 0;
-left: 0;
-object-fit: cover;
-padding: none;
-position: fixed;
-z-index: -1;
-}*/
-.animatedGradient {
-  animation: animateBg 10s linear infinite;
-  background-image: linear-gradient(0deg,#05668d,#028090,#00a896,#02c39a,#05668d,#028090);
-  background-size: 100% 500%;
-  z-index: -1;
-  padding: 3%;
+/* CSS
+#393c3c dark background
+#f0f0e7 white text
+#119c8c object backgrounds and special text accents
+*/
+html{
+  background-color: #393c3c;
 }
-@keyframes animateBg {
-  0% { background-position: 0% 0%; }
-  100% { background-position: 0% 100%; }
-}
-.projects{
-    background-color: #f0f3bdff;
+html::-webkit-scrollbar {
+    display: none;
 }
 body{
 font-family: 'Ultra', serif;
@@ -39,7 +18,7 @@ margin: 0;
 .typographyHeading{
 font-family: 'Ultra', serif!important;
 font-size: 1.8rem!important;
-color: "#fff"!important;
+color: "#119c8c"!important;
 text-align: center;
 }
 .typographyBody{
@@ -51,6 +30,10 @@ text-align: center;
 .button{
 font-family: 'Ultra', serif!important;
 font-size: 1rem!important;
+}
+.button:hover{
+background-color: #f0f0e7!important;
+color: #119c8c!important;
 }
 .pageHeading{
 font-family: 'Ultra', serif!important;
@@ -68,8 +51,20 @@ margin-left: 1%;
 font-family: 'Ultra', serif!important;
 font-size: 1.5rem;
 margin-inline: 3%;
-text-shadow: 0 0 15px #FFFFFF;
+color: #f0f0e7!important;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.barLink:hover{
+color: #119c8c!important;
+-webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 .navLinks{
   margin-left: 65%;
+}
+.author{
+font-family: 'Slabo 27px', serif!important;
+font-size: 2rem;
+height: max-content;
+width: max-content;
+color: #f0f0e7;
 }

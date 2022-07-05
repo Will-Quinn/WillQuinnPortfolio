@@ -8,9 +8,9 @@ import { NavLink} from "react-router-dom";
 //components and functions here
 function NavBar() {
   return (
-    <AppBar style={{ background: "rgba(30, 30, 30, 0.3)" }} position="fixed">
+    <AppBar sx={{ background: 0, color: 0, boxShadow: 0 }} position="absolute">
       <Toolbar className="toolbar">
-        <Link href={"/home"}>
+        <Link href={"/"}>
           <Avatar sx={{ width: "5rem", height: "5rem", margin: "0.5rem"}}
             className="logo"
             alt="logo"
@@ -19,62 +19,25 @@ function NavBar() {
           />
         </Link>
         <div className="navLinks">
-         <NavLink
+        <NavLink
           className="barLink"
-          to="/home"
-          style={(isActive) => ({
-            color: isActive ? "#f0f3bdff" : "#02c39aff",
-            textDecoration: "none",
-            "text-shadow": isActive
-              ? "0 0 10px #f0f3bdff"
-              : "0px 2px 9px rgba(0,0,0,0.5)",
-            textShadowColour: isActive
-              ? "2px 2px 20px #f0f3bdff"
-              : "0 0 15px rgba(255,255,255,.3)",
-          })}
-          
+          to="/"
+          style={{ textDecoration: "none" }}
         >Home</NavLink>
-                 <NavLink
+        <NavLink
           className="barLink"
-          to="/about"
-          style={(isActive) => ({
-            color: isActive ? "#f0f3bdff" : "#02c39aff",
-            textDecoration: "none",
-            "text-shadow": isActive
-              ? "0 0 10px #f0f3bdff"
-              : "0px 2px 9px rgba(0,0,0,0.72)",
-            textShadowColour: isActive
-              ? "2px 2px 20px #f0f3bdff"
-              : "0 0 15px rgba(255,255,255,.5)",
-          })}
+          to="/About"
+          style={{ textDecoration: "none" }}
         >About</NavLink> 
-                 <NavLink
+        <NavLink
           className="barLink"
-          to="/projects"
-          style={(isActive) => ({
-            color: isActive ? "#f0f3bdff" : "#02c39aff",
-            textDecoration: "none",
-            "text-shadow": isActive
-              ? "0 0 10px #f0f3bdff"
-              : "0px 2px 9px rgba(0,0,0,0.72)",
-            textShadowColour: isActive
-              ? "2px 2px 20px #f0f3bdff"
-              : "0 0 15px rgba(255,255,255,.5)",
-          })}
+          to="/Projects"
+          style={{ textDecoration: "none" }}
         >Projects</NavLink> 
-                 <NavLink
+        <NavLink
           className="barLink"
-          to="/contact"
-          style={(isActive) => ({
-            color: isActive ? "#f0f3bdff" : "#02c39aff",
-            textDecoration: "none",
-            "text-shadow": isActive
-              ? "0 0 10px #f0f3bdff"
-              : "0px 2px 9px rgba(0,0,0,0.72)",
-            textShadowColour: isActive
-              ? "2px 2px 20px #f0f3bdff"
-              : "0 0 15px rgba(255,255,255,.5)",
-          })}
+          to="/Contact"
+          style={{ textDecoration: "none" }}
         >Contact</NavLink>  
       </div>
       </Toolbar>

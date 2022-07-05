@@ -9,6 +9,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="app">
+    <div class="scrollbar" id="style-4">
+      <div class="force-overflow"></div>
+    </div>
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />

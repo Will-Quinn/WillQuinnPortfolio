@@ -1,12 +1,10 @@
 import React from "react";
+import NavBar from './shared/NavBar';
 
 export default function Contact() {
   return (
-<div>
-      <h2>Select SE Practice to get evidence for the claimed benefits</h2>
-      <div className="inline">
-        <h2>Select SE Practice to get evidence for the claimed benefits</h2>
-      </div>
-    </div>
+     <div className="contact">
+      <NavBar />
+     </div>
   );
 }
