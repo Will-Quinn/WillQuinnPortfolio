@@ -17,13 +17,15 @@ import Footer from './shared/footer';
 
 function Projects() {
 const Item = styled(Card)(() => ({
-  boxShadow: "5px 5px 15px 5px rgba(0,0,0,0.4)"
+  boxShadow: "none",
+  border: "none",
+  borderRadius: 0
 }));
   return (
     <div className="projects">
       <div className="animatedGradient">
       <NavBar />
-      <Typography className="pageHeading" variant="h1" component="h1" color="#f0f0e7"
+      <Typography className="pageHeading" variant="h1" component="h1" color="#361aea"
       sx={{ 
       marginTop: "5%",
       marginBottom: "5%"}}>
@@ -33,17 +35,18 @@ const Item = styled(Card)(() => ({
           <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
             <Grid item xs={6}>
               <Item sx={{ 
-                margin: "2%", bgcolor: "#f0f0e7"}}>
+                margin: "2%", bgcolor: "#fcfcfd"}}>
                 <Card sx={{ 
                   maxWidth: "100%", 
-                  bgcolor: "#f0f0e7",
+                  bgcolor: "#fcfcfd",
                   }}>
                 <CardMedia sx={{ 
                   width: "95%", 
                   margin: "2%", 
                   marginLeft: "auto", 
                   marginRight: "auto",
-                  border: "5px solid #119c8c"}}
+                  padding: "1%",
+                  borderLeft: "5px solid #361aea",}}
                   component="img"
                   alt="Mapuche School of Arts and Crafts website"
                   image={mapuche}
@@ -51,23 +54,24 @@ const Item = styled(Card)(() => ({
                   className="mapucheCard"
                 />
                 <CardContent sx={{ 
-                  bgcolor: "#f0f0e7",
-                  color: "#119c8c"}}>
+                  bgcolor: "#fcfcfd",
+                  color: "#361aea"}}>
                   <Typography className = "typographyHeading" gutterBottom variant="h5" component="div">
                     The Mapuche School of Arts and Crafts
                   </Typography>
-                  <Typography className = "typographyBody" variant="body2" color="#393c3c">
+                  <Typography className = "typographyBody" variant="body2" color="#361aea">
                     The Mapuche School of Arts and Crafts website was made for international clients based in southern Chile with the project being facilitated through
                     Auckand University of Technology. I and three other students created and oversaw the development of the website. Using agile methodologies, we
                     spearheaded the development of the website from the ground up. The website was built using the Material-UI framework and React.js.
                   </Typography>
                 </CardContent>
                 <CardActions sx={{ 
-                  bgcolor: "#f0f0e7", 
-                  color: "#119c8c", 
-                  alignItems: "center"}}>
-                  <Button sx={{ color: "#f0f0e7", bgcolor: "#119c8c", marginLeft: "27%"}} className = "button" size="small" href='https://mapuche-art.web.app/'>View Website</Button>
-                  <Button sx={{ color: "#f0f0e7", bgcolor: "#119c8c", marginLeft: "27%"}} className = "button" size="small" href='https://github.com/maxventer00/mapuche-art-school'>View Repository</Button>
+                  bgcolor: "#fcfcfd", 
+                  color: "#361aea",
+                  border: "none", 
+                  borderRadius: "none"}}>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", marginLeft: "27%"}} className = "button" size="small" href='https://mapuche-art.web.app/'>View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", marginLeft: "27%"}} className = "button" size="small" href='https://github.com/maxventer00/mapuche-art-school'>View Repository</Button>
                 </CardActions>
               </Card>
               </Item>
@@ -75,16 +79,17 @@ const Item = styled(Card)(() => ({
             <Grid item xs={6}>
               <Item sx={{ 
               margin: "2%",
-              bgcolor: "#f0f0e7"}}>
+              bgcolor: "#fcfcfd"}}>
                 <Card ClassName = "card" sx={{ 
                 maxWidth: "100%",
-                bgcolor: "#f0f0e7"}}>
+                bgcolor: "#fcfcfd"}}>
                 <CardMedia sx={{
                   width: "95%",
                   margin: "2%",
                   marginLeft: "auto",
                   marginRight: "auto",
-                  border: "5px solid #119c8c"}}
+                  padding: "1%",
+                  borderLeft: "5px solid #361aea",}}
                   component="img"
                   alt="Software Practice Empirical Evidence Database"
                   image={speed}
@@ -92,22 +97,25 @@ const Item = styled(Card)(() => ({
                   className="mapucheCard"
                 />
                 <CardContent sx={{ 
-                  bgcolor: "#f0f0e7",
-                  color: "#119c8c"}}>
+                  bgcolor: "#fcfcfd",
+                  color: "#361aea",
+                  borderRadius: "none"}}>
                   <Typography className = "typographyHeading" gutterBottom variant="h5" component="div">
                     Software Practice Empirical Evidence Database
                   </Typography>
-                  <Typography className = "typographyBody" variant="body2" color="#393c3c">
+                  <Typography className = "typographyBody" variant="body2" color="#361aea">
                     The Software Practice Empirical Evidence Database or SPEED was a project made at Auckand University of Technology with me and two other students. The goal of the project was
                     to create a MERN stack website that focused around the use of databases and creating different user states to be able to have access to different parts of the website and to manipulate
                     data based on user states. 
                   </Typography>
                 </CardContent>
                 <CardActions sx={{ 
-                bgcolor: "#f0f0e7",
-                color: "#119c8c"}}>
-                  <Button sx={{ color: "#f0f0e7", bgcolor: "#119c8c", marginLeft: "30%"}} className = "button" size="small" href='https://speed-cise-team7.herokuapp.com/'>View Website</Button>
-                  <Button sx={{ color: "#f0f0e7", bgcolor: "#119c8c", marginLeft: "30%"}} className = "button" size="small" href='https://github.com/Will-Quinn/SPEED_Assgt1B'>View Repository</Button>
+                bgcolor: "#fcfcfd",
+                color: "#361aea",
+                border: "none",
+                borderRadius: "none"}}>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", marginLeft: "30%"}} className = "button" size="small" href='https://speed-cise-team7.herokuapp.com/'>View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", marginLeft: "30%"}} className = "button" size="small" href='https://github.com/Will-Quinn/SPEED_Assgt1B'>View Repository</Button>
                 </CardActions>
               </Card>
               </Item>

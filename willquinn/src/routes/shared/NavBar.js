@@ -4,14 +4,13 @@ import { AppBar, Avatar, Link, Toolbar} from "@mui/material";
 import logo from "../../assets/logo.png";
 import { NavLink} from "react-router-dom";
 
-
 //components and functions here
 function NavBar() {
   return (
     <AppBar sx={{ background: 0, color: 0, boxShadow: 0 }} position="absolute">
       <Toolbar className="toolbar">
         <Link href={"/"}>
-          <Avatar sx={{ width: "5rem", height: "5rem", margin: "0.5rem"}}
+          <Avatar sx={{ width: "5rem", height: "5rem", margin: "0.5rem",padding: "1%",borderLeft: "5px solid #361aea"}}
             className="logo"
             alt="logo"
             src={logo}
