@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 //components and functions here
 function Footer() {
   return (
-      <BottomNavigation className="footer" sx={{ background: "#361aea", height: "0.5%", marginTop: "10%"}} position="absolute">
+      <BottomNavigation className="footer" sx={{ background: "#361aea", height: "64px", marginTop: "10%", bottom: 0}} position="fixed">
         <Link className = "svg"  href={"https://www.linkedin.com/in/william-quinn-03694a218/"}>
           <Avatar sx={{ width: "4rem", height: "4rem"}}
             alt="linkedin"

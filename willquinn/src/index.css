@@ -6,6 +6,8 @@
 #361aea main text colour
 #7615f9 accents colour
 */
+
+/* Global */
 html{
   background-color: #d4e5f9;
 }
@@ -15,6 +17,9 @@ html::-webkit-scrollbar {
 body{
 font-family: 'Ultra', serif;
 margin: 0;
+}
+p{
+  margin: 7px;
 }
 .typographyHeading{
 font-family: 'Ultra', serif!important;
@@ -68,4 +73,57 @@ font-size: 2rem;
 height: max-content;
 width: max-content;
 color: #361aea;
+}
+/*home*/
+.homeIntro{
+  margin-top: 15%;
+  margin-left: 7%;
+}
+.cloud1{
+  margin-top: -5%;
+  margin-left: 1%;
+  height: max-content;
+  width: max-content;
+  position:fixed;
+}
+.cloud2{
+  margin-top: 8%;
+  margin-left: 16%;
+  height: max-content;
+  width: max-content;
+  position:fixed;
+}
+.hi{
+font-family: 'Slabo 27px', serif!important;
+font-size: 2rem!important;
+height: max-content;
+width: max-content;
+color: #361aea;
+}
+.hi2{
+font-family: 'Slabo 27px', serif!important;
+height: max-content;
+width: max-content;
+color: #361aea;
+display: inline-block;
+}
+.name{
+font-family: 'Ultra', serif!important;
+font-size: 5rem!important;
+height: max-content;
+width: max-content;
+}
+.footerHome{
+bottom: 0;
+position: fixed;
+width: 100%;
+height: max-content;
+}
+.homeAbout{
+margin-left: 62%;
+height: max-content;
+width: max-content;
+}
+.homeText{
+font-family: 'Slabo 27px', serif!important;
 }
