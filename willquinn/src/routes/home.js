@@ -3,7 +3,6 @@ import NavBar from './shared/NavBar';
 import Footer from './shared/footer';
 import { Avatar, Typography } from "@mui/material";
 import me from '../assets/me.png';
-import cloudsm from '../assets/cloudSM.png';
 import cloudmd from '../assets/cloudMD.png';
 import cloudlg from '../assets/cloudLG.png';
 export default function Home(){
@@ -35,7 +34,7 @@ export default function Home(){
             <p>who can nurture my skills and grow my career.</p>
           </Typography>
         </div>  
-        <div className="footerHome">
+        <div className="footerDiv">
         <Footer />
         </div>
       </div>
