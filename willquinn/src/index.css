@@ -113,6 +113,19 @@ color: #361aea;
   width: max-content;
   position:fixed;
 }
+.cloud3{
+  margin-left: 20%;
+  height: max-content;
+  width: max-content;
+  position:fixed;
+}
+.rain{
+  margin-top: 10.6%;
+  margin-left: 16.2%;
+  height: 50px;
+  width: 50px;
+  position:fixed;
+}
 .hi{
 font-family: 'Slabo 27px', serif!important;
 font-size: 2rem!important;
@@ -174,8 +187,39 @@ margin-left: 20%;
 }
 .aboutMainDiv{
   margin-top: 20%;
+  margin-left: -30%;
+  margin-right: 20%;
 }
 .aboutMain{
 font-family: 'Slabo 27px', serif!important;
 font-size: 2rem!important;
+}
+/*contact*/
+.contactLink{
+  font-family: 'Slabo 27px', serif!important;
+  font-size: 2rem!important;
+  text-decoration: none;
+  color: #361aea;
+}
+.contactHeading{
+  font-family: 'Ultra', serif!important;
+  font-size: 3.5rem!important;
+  text-decoration: none;
+  color: #361aea;
+}
+.contactText{
+font-family: 'Slabo 27px', serif!important;
+font-size: 2rem!important;
+}
+.contactIconDiv1{
+  align-items: center;
+  max-height: max-content;
+  justify-content: center;
+  display: flex;
+}
+.contactIconDiv2{
+  align-items: center;
+  max-height: max-content;
+  justify-content: center;
+  display: flex;
 }

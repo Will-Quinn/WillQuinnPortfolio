@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 //components and functions here
 function Footer() {
   return (
-      <BottomNavigation className="footer" sx={{ background: "#361aea", height: "3%", marginTop: "10%", bottom: 0}} position="fixed">
+      <BottomNavigation className="footer" sx={{ background: "#361aea", height: "3%", marginTop: "10%", bottom: 0, justifyContent:"space-between" }} position="fixed">
         <div className = "authorDiv">
         <Typography sx={{marginTop:"0.5%",fontSize: "1rem",color: "#fcfcfd"}} className = "author" variant="body2">
             William Quinn 2022

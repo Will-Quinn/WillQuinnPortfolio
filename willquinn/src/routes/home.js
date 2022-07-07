@@ -5,6 +5,7 @@ import { Avatar, Typography } from "@mui/material";
 import me from '../assets/me.png';
 import cloudmd from '../assets/cloudMD.png';
 import cloudlg from '../assets/cloudLG.png';
+import rain from '../assets/rainGif.gif';
 export default function Home(){
     return (
       <div className="home">
@@ -19,13 +20,14 @@ export default function Home(){
           <Typography className="hi2" variant="subtitle2" component="subtitle2" color="#361aea" sx={{ fontSize: "1.3rem",marginLeft: "-2%"}}>
             <p>Bachelor of Computer and Information Sciences in Software Development</p>
           </Typography>
-          <img className="cloud1" src={cloudlg} alt="Will Quinn"/>
+          <img className="cloud1" src={cloudlg} alt="cloud"/>
           <Avatar
             alt="Will Quinn"
             src={me}
-            sx={{ width: 350, height: 350,position: "absolute", marginLeft: "33.5%", marginRight: "auto",marginTop: "-9%"}}
+            sx={{ width: 350, height: 350, position: "absolute", marginLeft: "33.5%", marginRight: "auto",marginTop: "-9%"}}
           />
-          <img className="cloud2" src={cloudmd} alt="Will Quinn"/>
+          <img className="cloud2" src={cloudmd} alt="cloud"/>
+          <img className="rain" src={rain} alt="rain"/>
         </div>
         <div className="homeAbout">
           <Typography className="homeText" variant="h2" component="h2" color="#361aea" sx={{ fontSize: "1.5rem"}}>
