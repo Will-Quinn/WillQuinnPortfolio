@@ -101,14 +101,14 @@ color: #361aea;
 }
 .cloud1{
   margin-top: -5%;
-  margin-left: 1%;
+  margin-left: -1%;
   height: max-content;
   width: max-content;
   position:fixed;
 }
 .cloud2{
   margin-top: 8%;
-  margin-left: 16%;
+  margin-left: 14.5%;
   height: max-content;
   width: max-content;
   position:fixed;
@@ -121,7 +121,7 @@ color: #361aea;
 }
 .rain{
   margin-top: 10.6%;
-  margin-left: 16.2%;
+  margin-left: 14.8%;
   height: 50px;
   width: 50px;
   position:fixed;
@@ -186,9 +186,11 @@ margin-left: 20%;
   height: 100px;
 }
 .aboutMainDiv{
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: -30%;
   margin-right: 20%;
+  background-color: #fcfcfd;
+  border-left: 5px solid #361aea;
 }
 .aboutMain{
 font-family: 'Slabo 27px', serif!important;

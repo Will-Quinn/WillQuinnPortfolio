@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from './shared/NavBar';
 import Footer from './shared/footer';
-import { Typography } from "@mui/material";
+import { Typography, Link } from "@mui/material";
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
@@ -35,10 +35,18 @@ export default function About() {
             Me
           </Typography>
           <div className="iconDiv">
-          <img className="icons" src={js} alt="Javascript"/>
-          <img className="icons" src={ts} alt="Typescript"/>
-          <img className="icons" src={react} alt="react"/>
-          <img className="icons" src={css} alt="cascading style sheets"/>
+          <Link href={"https://www.javascript.com/"}>
+            <img className="icons" src={js} alt="Javascript"/>
+          </Link>
+          <Link href={"https://www.typescriptlang.org/"}>
+            <img className="icons" src={ts} alt="Typescript"/>
+          </Link>
+          <Link href={"https://reactjs.org/"}>
+            <img className="icons" src={react} alt="React"/>
+          </Link>
+          <Link href={"https://developer.mozilla.org/en-US/docs/Web/CSS"}>
+            <img className="icons" src={css} alt="Cascasding style sheets"/>
+          </Link>                    
           </div>
          <Typography className="aboutBody" variant="subtitle1" component="subtitle1" color="#361aea"
           sx={{marginLeft: "40%"}}>
@@ -51,8 +59,10 @@ export default function About() {
           <Item>
          <div className="aboutMainDiv">
           <Typography className="aboutMain" variant="subtitle1" component="subtitle1" color="#361aea"
-          sx={{marginTop: "10%", lineHeight: "35px"}}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          sx={{lineHeight: "40px"}}>
+            <p>From a very young age I've had a passion for computers and technology. Only until recently did I realise my potential and understood careers in IT aren't just for your Bill Gates or Steve Jobs types. I can excel here too.</p> 
+            <p>After a brief stint in the navy trying to become a Communications Warfare Specialist was ended by a back injury, I decided it was time to challenge myself academically and try my luck at Computer science at AUT.</p> 
+            <p>These days I wouldn't change anything, My experience through my degree has embedded a deep passion for problem solving, Web design/development, and creating products that me and my team can be proud of, and that our clients can enjoy.</p>
           </Typography>
           </div>
           </Item>

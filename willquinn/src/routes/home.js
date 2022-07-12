@@ -2,11 +2,22 @@ import React from "react";
 import NavBar from './shared/NavBar';
 import Footer from './shared/footer';
 import { Avatar, Typography } from "@mui/material";
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
 import me from '../assets/me.png';
 import cloudmd from '../assets/cloudMD.png';
 import cloudlg from '../assets/cloudLG.png';
 import rain from '../assets/rainGif.gif';
+
 export default function Home(){
+     const Item = styled(Paper)(({ theme }) => ({
+      boxShadow: "none",
+      border: "none",
+      borderRadius: 0,
+      backgroundColor: "transparent",
+}));
     return (
       <div className="home">
         <NavBar />
@@ -17,7 +28,7 @@ export default function Home(){
           <Typography className="name" variant="h1" component="h1" color="#361aea">
             Will Quinn
           </Typography>
-          <Typography className="hi2" variant="subtitle2" component="subtitle2" color="#361aea" sx={{ fontSize: "1.3rem",marginLeft: "-2%"}}>
+          <Typography className="hi2" variant="subtitle2" component="subtitle2" color="#361aea" sx={{ fontSize: "1.5rem",marginLeft: "-5%"}}>
             <p>Bachelor of Computer and Information Sciences in Software Development</p>
           </Typography>
           <img className="cloud1" src={cloudlg} alt="cloud"/>

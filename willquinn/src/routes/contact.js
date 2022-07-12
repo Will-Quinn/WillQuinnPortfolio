@@ -9,6 +9,9 @@ import Grid from '@mui/material/Grid';
 import { Avatar } from "@mui/material";
 import githubBlue from "../assets/githubBlue.png";
 import linkedinBlue from "../assets/linkedinBlue.png";
+import TextField from "@material-ui/core/TextField";
+import { useState } from "react";
+import { Button } from "@material-ui/core";
 
 export default function Contact() {
       const Item = styled(Paper)(({ theme }) => ({
