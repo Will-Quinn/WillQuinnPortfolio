@@ -12,6 +12,7 @@ import linkedinBlue from "../assets/linkedinBlue.png";
 import TextField from "@material-ui/core/TextField";
 import { useState } from "react";
 import { Button } from "@material-ui/core";
+import './css/contact.css'
 
 export default function Contact() {
       const Item = styled(Paper)(({ theme }) => ({

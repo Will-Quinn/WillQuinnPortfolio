@@ -10,7 +10,7 @@ import me from '../assets/me.png';
 import cloudmd from '../assets/cloudMD.png';
 import cloudlg from '../assets/cloudLG.png';
 import rain from '../assets/rainGif.gif';
-
+import './css/home.css'
 export default function Home(){
      const Item = styled(Paper)(({ theme }) => ({
       boxShadow: "none",
