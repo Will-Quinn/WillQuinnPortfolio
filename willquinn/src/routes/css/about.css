@@ -68,18 +68,3 @@
         border-left-width: 5px;
     }
 }
-.icons{
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-}
-.icons:hover{
-    margin: 0.4em;
-    padding: 1em;
-    cursor: pointer;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-}

@@ -46,7 +46,7 @@ export default function About() {
             <img className="icons" src={react} alt="React"/>
           </Link>
           <Link href={"https://developer.mozilla.org/en-US/docs/Web/CSS"}>
-            <img className="icons" src={css} alt="Cascasding style sheets"/>
+            <img className="icons" src={css} alt="CSS"/>
           </Link>                    
           </div>
          <Typography className="aboutBody" variant="subtitle1" component="subtitle1" color="#361aea"
