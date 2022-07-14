@@ -1,0 +1,45 @@
+.mapucheCard{
+  animation: 300ms linear borderIn;
+  animation-timing-function: cubic-bezier(0.2,-2,0.8,2);
+}
+
+@keyframes borderIn {
+    from {
+        border-left-width: 0;
+    }
+    to {
+        border-left-width: 5px;
+    }
+}
+@keyframes borderIn {
+    from {
+        border-left-width: 0;
+    }
+    to {
+        border-left-width: 5px;
+    }
+}
+@-moz-keyframes borderIn { /* Firefox */
+    from {
+        border-left-width: 0;
+    }
+    to {
+        border-left-width: 5px;
+    }
+}
+@-webkit-keyframes borderIn { /* Safari and Chrome */
+    from {
+        border-left-width: 0;
+    }
+    to {
+        border-left-width: 5px;
+    }
+}
+@-o-keyframes borderIn { /* Opera */
+    from {
+        border-left-width: 0;
+    }
+    to {
+        border-left-width: 5px;
+    }
+}

@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import NavBar from './shared/NavBar';
 import Footer from './shared/footer';
-
+import './css/projects.css'
 //add parallax and get a better colour pallett
 //add navBar to project
 

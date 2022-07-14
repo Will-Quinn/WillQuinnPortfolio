@@ -1,0 +1,156 @@
+.birds{
+    width: 200px;
+    height:50px;
+    margin-top: -20%;
+}   
+.hi{
+    animation: fadeinHi 3s;
+    transition: ease-in-out;
+}
+@keyframes fadeinHi {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeinHi { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadeinHi { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadeinHi { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.name{
+    animation: fadeinName 4s;
+    transition: ease-in-out;
+}
+@keyframes fadeinName {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeinName { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadeinName { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadeinName { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.cloud1 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 12px); }
+    100%   { transform: translate(0, -0px); }   
+}
+.cloud2 {
+    animation-name: floating2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating2 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 7px); }
+    100%   { transform: translate(0, -0px); }   
+}
+.avatar{
+    animation-name: floating3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating3 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 5px); }
+    100%   { transform: translate(0, -0px); }   
+}
+.css-12o4gv0-MuiTypography-root{
+      border-left: 5px solid #361aea;
+    animation: 300ms linear borderIn;
+  animation-timing-function: cubic-bezier(0.2,-2,0.8,2);
+}
+@keyframes borderIn {
+    from {
+        border-left-width: 0;
+    }
+    to {
+        border-left-width: 5px;
+    }
+}
+@keyframes borderIn {
+    from {
+        border-left-width: 0;
+    }
+    to {
+        border-left-width: 5px;
+    }
+}
+@-moz-keyframes borderIn { /* Firefox */
+    from {
+        border-left-width: 0;
+    }
+    to {
+        border-left-width: 5px;
+    }
+}
+@-webkit-keyframes borderIn { /* Safari and Chrome */
+    from {
+        border-left-width: 0;
+    }
+    to {
+        border-left-width: 5px;
+    }
+}
+@-o-keyframes borderIn { /* Opera */
+    from {
+        border-left-width: 0;
+    }
+    to {
+        border-left-width: 5px;
+    }
+}

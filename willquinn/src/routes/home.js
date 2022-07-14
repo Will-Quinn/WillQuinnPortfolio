@@ -9,7 +9,8 @@ import Grid from '@mui/material/Grid';
 import me from '../assets/me.png';
 import cloudmd from '../assets/cloudMD.png';
 import cloudlg from '../assets/cloudLG.png';
-import rain from '../assets/rainGif.gif';
+import birds from '../assets/birds.png';
+import './css/home.css'
 
 export default function Home(){
      const Item = styled(Paper)(({ theme }) => ({
@@ -22,6 +23,7 @@ export default function Home(){
       <div className="home">
         <NavBar />
         <div className="homeIntro">
+          <img className="birds" src={birds} alt="birds"/>
           <Typography className="hi" variant="subtitle1" component="subtitle1" color="#361aea">
             Hi, I'm
           </Typography>
@@ -33,12 +35,12 @@ export default function Home(){
           </Typography>
           <img className="cloud1" src={cloudlg} alt="cloud"/>
           <Avatar
+            className="avatar"
             alt="Will Quinn"
             src={me}
             sx={{ width: 350, height: 350, position: "absolute", marginLeft: "33.5%", marginRight: "auto",marginTop: "-9%"}}
           />
           <img className="cloud2" src={cloudmd} alt="cloud"/>
-          <img className="rain" src={rain} alt="rain"/>
         </div>
         <div className="homeAbout">
           <Typography className="homeText" variant="h2" component="h2" color="#361aea" sx={{ fontSize: "1.5rem"}}>
