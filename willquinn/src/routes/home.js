@@ -9,6 +9,7 @@ import Grid from '@mui/material/Grid';
 import me from '../assets/me.png';
 import cloudmd from '../assets/cloudMD.png';
 import cloudlg from '../assets/cloudLG.png';
+import birds from '../assets/birds.png';
 import './css/home.css'
 
 export default function Home(){
@@ -22,6 +23,7 @@ export default function Home(){
       <div className="home">
         <NavBar />
         <div className="homeIntro">
+          <img className="birds" src={birds} alt="birds"/>
           <Typography className="hi" variant="subtitle1" component="subtitle1" color="#361aea">
             Hi, I'm
           </Typography>
