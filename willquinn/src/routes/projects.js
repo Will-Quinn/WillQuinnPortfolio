@@ -70,8 +70,10 @@ const Item = styled(Card)(() => ({
                   color: "#361aea",
                   border: "none", 
                   borderRadius: "none"}}>
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", marginLeft: "27%"}} className = "button" size="small" href='https://mapuche-art.web.app/'>View Website</Button>
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", marginLeft: "27%"}} className = "button" size="small" href='https://github.com/maxventer00/mapuche-art-school'>View Repository</Button>
+                  <div className="buttonContainer">
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://mapuche-art.web.app/'>View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/maxventer00/mapuche-art-school'>View Repository</Button>
+                  </div>
                 </CardActions>
               </Card>
               </Item>
@@ -114,8 +116,10 @@ const Item = styled(Card)(() => ({
                 color: "#361aea",
                 border: "none",
                 borderRadius: "none"}}>
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", marginLeft: "30%"}} className = "button" size="small" href='https://speed-cise-team7.herokuapp.com/'>View Website</Button>
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", marginLeft: "30%"}} className = "button" size="small" href='https://github.com/Will-Quinn/SPEED_Assgt1B'>View Repository</Button>
+                  <div className="buttonContainer">
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://speed-cise-team7.herokuapp.com/'>View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/Will-Quinn/SPEED_Assgt1B'>View Repository</Button>
+                  </div>
                 </CardActions>
               </Card>
               </Item>

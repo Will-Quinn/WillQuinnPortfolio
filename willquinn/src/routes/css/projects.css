@@ -2,7 +2,16 @@
   animation: 300ms linear borderIn;
   animation-timing-function: cubic-bezier(0.2,-2,0.8,2);
 }
-
+.buttonContainer{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.css-y6ahz9-MuiCardActions-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @keyframes borderIn {
     from {
         border-left-width: 0;

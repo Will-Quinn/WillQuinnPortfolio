@@ -220,12 +220,10 @@ font-size: 2rem!important;
 .contactIconDiv1{
   align-items: center;
   max-height: max-content;
-  justify-content: center;
   display: flex;
 }
 .contactIconDiv2{
   align-items: center;
   max-height: max-content;
-  justify-content: center;
   display: flex;
 }
