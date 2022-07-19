@@ -9,9 +9,6 @@ import Grid from '@mui/material/Grid';
 import { Avatar } from "@mui/material";
 import githubBlue from "../assets/githubBlue.png";
 import linkedinBlue from "../assets/linkedinBlue.png";
-import TextField from "@material-ui/core/TextField";
-import { useState } from "react";
-import { Button } from "@material-ui/core";
 import './css/contact.css'
 
 export default function Contact() {
@@ -45,14 +42,14 @@ export default function Contact() {
           sx={{marginLeft: "1%"}}>
             <a href="tel:0278828905" className="contactLink">027 882 8905</a>
           </Typography>
-          <Typography className="contactHeading" variant="h1" component="h1" color="#361aea"
+          <Typography className="contactHeading" variant="h1" component="h1" color="#361aea" 
           sx={{marginLeft: "1%", marginTop: "2%"}}>
             And...
-          </Typography>           
+          </Typography>
+          <div className="iconDivs" sx={{  martginLeft: "0"}}>       
           <div className="contactIconDiv1">
-          <Typography className="contactText" variant="subtitle1" component="subtitle1" color="#361aea"
-          sx={{marginLeft: "-70.2%"}}>
-            <Avatar sx={{ width: "2.5rem", height: "2.5rem", float: "left", margin: "0.5rem"}}
+          <Typography className="contactText" variant="subtitle1" component="subtitle1" color="#361aea">
+            <Avatar sx={{ width: "2.5rem", height: "2.5rem", float: "left", margin: "0.5rem", left: "0"}}
             alt="linkedin"
             src={linkedinBlue}
             variant="square"
@@ -61,9 +58,8 @@ export default function Contact() {
           </Typography>
           </div>   
           <div className="contactIconDiv2">
-          <Typography className="contactText" variant="subtitle1" component="subtitle1" color="#361aea"
-          sx={{marginLeft: "-73%"}}>
-            <Avatar sx={{ width: "2.5rem", height: "2.5rem", float: "left", margin: "0.5rem"}}
+          <Typography className="contactText" variant="subtitle1" component="subtitle1" color="#361aea">
+            <Avatar sx={{ width: "2.5rem", height: "2.5rem", float: "left", margin: "0.5rem", left: "0"}}
             alt="linkedin"
             src={githubBlue}
             variant="square"
@@ -71,10 +67,9 @@ export default function Contact() {
             <a href="https://github.com/Will-Quinn" className="contactLink">Github</a>
           </Typography>   
           </div>               
-          <div className="iconDiv">
           </div>
          <Typography className="contactText" variant="subtitle1" component="subtitle1" color="#361aea"
-          sx={{marginLeft: "1%"}}>
+          sx={{marginLeft: "1%",flexWrap: "wrap" }}>
             Lets get in Touch!
           </Typography>  
         </div>

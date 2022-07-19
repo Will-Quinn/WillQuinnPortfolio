@@ -5,7 +5,52 @@
   animation: 300ms linear borderIn;
   animation-timing-function: cubic-bezier(0.2,-2,0.8,2);
 }
-
+.contactLink{
+  font-family: 'Slabo 27px', serif!important;
+  font-size: 2rem!important;
+  text-decoration: none;
+  color: #361aea;
+}
+.contactLink:hover{
+color: #7615f9!important;
+-webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.contactHeading{
+  font-family: 'Ultra', serif!important;
+  font-size: 3.5rem!important;
+  text-decoration: none;
+  color: #361aea;
+}
+.contactText{
+font-family: 'Slabo 27px', serif!important;
+font-size: 2rem!important;
+}
+.contactIconDiv1{
+  align-items: center;
+  max-height: max-content;
+  display: flex;
+}
+@media only screen and (max-device-width: 1500px){
+    .css-13prt6s-MuiPaper-root{
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-device-width: 1000px){
+    .css-13prt6s-MuiPaper-root{
+        margin-top: 20%;
+    }
+}
+@media only screen and (max-device-width: 500px){
+    .css-13prt6s-MuiPaper-root{
+        margin-top: 90%;
+        margin-left: 90%;
+    }
+}
+.contactIconDiv2{
+  align-items: center;
+  max-height: max-content;
+  display: flex;
+}
 @keyframes borderIn {
     from {
         border-left-width: 0;

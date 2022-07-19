@@ -2,7 +2,20 @@
   animation: 300ms linear borderIn;
   animation-timing-function: cubic-bezier(0.2,-2,0.8,2);
 }
+.buttonContainer{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.css-y6ahz9-MuiCardActions-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.projectCards{
+margin-bottom: 5%;
+}
 @keyframes borderIn {
     from {
         border-left-width: 0;
@@ -41,5 +54,16 @@
     }
     to {
         border-left-width: 5px;
+    }
+}
+.pageHeading{
+font-family: 'Ultra', serif!important;
+font-size: 4rem!important;
+text-align: center;
+margin-top: 10%;
+}
+@media only screen and (max-device-width: 1500px){
+    .pageHeading{
+        margin-top: 10%!important;
     }
 }

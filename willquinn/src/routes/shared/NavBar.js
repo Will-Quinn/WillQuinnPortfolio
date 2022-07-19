@@ -17,7 +17,11 @@ function NavBar() {
             variant="square"
           />
         </Link>
-        <div className="navLinks">
+        <div className="navLinks" sx={{
+        '@media only screen and (max-device-width: 1000px)':{
+              marginLeft: "30%"
+            },
+        }}>
         <NavLink
           className="barLink"
           to="/"

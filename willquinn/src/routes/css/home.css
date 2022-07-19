@@ -7,6 +7,64 @@
     animation: fadeinHi 3s;
     transition: ease-in-out;
 }
+/*home*/
+.homeIntro{
+margin-top: 50%;
+margin-left: 10%;
+}
+.homeAbout{
+margin-top: 65%;
+max-width: 98%;
+}
+.homeText{
+font-family: 'Slabo 27px', serif!important;
+margin-right: auto;
+}
+.cloud1{
+  height: max-content;
+  width: max-content;
+  position:absolute;
+  margin-left: 6%;
+  margin-top: 14%;
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+@media only screen and (max-width: 1600px){
+    .cloud1{
+        margin-left: auto;
+    }
+}
+.cloud2{
+  position:absolute;
+  margin-left: 21%;
+  margin-top: -4%;
+  width: 100%;
+  height: auto;
+  max-width: 50px;
+  max-height: 50px;
+}
+.hi{
+font-family: 'Slabo 27px', serif!important;
+font-size: 2rem!important;
+height: max-content;
+width: max-content;
+color: #361aea;
+}
+.hi2{
+font-family: 'Slabo 27px', serif!important;
+height: max-content;
+width: max-content;
+color: #361aea;
+display: inline-block;
+}
+.name{
+font-family: 'Ultra', serif!important;
+font-size: 5rem;
+height: max-content;
+width: max-content;
+}
 @keyframes fadeinHi {
     from {
         opacity:0;
@@ -43,6 +101,11 @@
 .name{
     animation: fadeinName 4s;
     transition: ease-in-out;
+}
+@media only screen and (max-width: 1000px){
+    .name{
+        font-size: 3rem!important;
+    }
 }
 @keyframes fadeinName {
     from {
@@ -98,7 +161,7 @@
     50%  { transform: translate(0, 7px); }
     100%   { transform: translate(0, -0px); }   
 }
-.avatar{
+.me{
     animation-name: floating3;
     animation-duration: 3s;
     animation-iteration-count: infinite;

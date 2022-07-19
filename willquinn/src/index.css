@@ -21,9 +21,6 @@ margin: 0;
 p{
   margin: 7px;
 }
-.aboutIntro{
-  background-color: 0!important;
-}
 .typographyHeading{
 font-family: 'Ultra', serif!important;
 font-size: 1.8rem!important;
@@ -43,12 +40,6 @@ border-radius: 0!important;
 .button:hover{
 background-color: #7615f9!important;
 color: #fcfcfd!important;
-}
-.pageHeading{
-font-family: 'Ultra', serif!important;
-font-size: 4rem!important;
-text-align: center;
-margin-top: 10%;
 }
 .toolbar {
 display: "flex";
@@ -70,14 +61,22 @@ color: #7615f9!important;
 .navLinks{
   margin-left: 65%;
 }
-/* footer */
-.boat{
-  position: absolute;
-  width: 2%;
-  height: 25%;
-  margin-left: 80%;
-  margin-top: -0.5%;
+@media only screen and (max-device-width: 1900px){
+    .navLinks{
+        margin-left: 55%!important;
+    }
 }
+@media only screen and (max-device-width: 1500px){
+    .navLinks{
+        margin-left: 35%!important;
+    }
+}
+@media only screen and (max-device-width: 1000px){
+    .navLinks{
+        margin-left: 25%!important;
+    }
+}
+/* footer */
 .author{
 font-family: 'Slabo 27px', serif!important;
 font-size: 2rem;
@@ -101,131 +100,10 @@ color: #361aea;
   margin-left: 0;
   margin-right: 1%;
 }
-/*home*/
-.homeIntro{
-  margin-top: 15%;
-  margin-left: 7%;
-}
-.cloud1{
-  margin-top: -5%;
-  margin-left: -1%;
-  height: max-content;
-  width: max-content;
-  position:fixed;
-}
-.cloud2{
-  margin-top: 8%;
-  margin-left: 14.5%;
-  height: max-content;
-  width: max-content;
-  position:fixed;
-}
-.cloud3{
-  margin-left: 20%;
-  height: max-content;
-  width: max-content;
-  position:fixed;
-}
-.rain{
-  margin-top: 10.6%;
-  margin-left: 14.8%;
-  height: 50px;
-  width: 50px;
-  position:fixed;
-}
-.hi{
-font-family: 'Slabo 27px', serif!important;
-font-size: 2rem!important;
-height: max-content;
-width: max-content;
-color: #361aea;
-}
-.hi2{
-font-family: 'Slabo 27px', serif!important;
-height: max-content;
-width: max-content;
-color: #361aea;
-display: inline-block;
-}
-.name{
-font-family: 'Ultra', serif!important;
-font-size: 5rem!important;
-height: max-content;
-width: max-content;
-}
 .footerDiv{
 bottom: 0;
 position: fixed;
 width: 100%;
 height: max-content;
 }
-.homeAbout{
-margin-left: 62%;
-height: max-content;
-width: max-content;
-}
-.homeText{
-font-family: 'Slabo 27px', serif!important;
-}
-/*about*/
-.aboutHeading{
-font-family: 'Ultra', serif!important;
-font-size: 4rem!important;
-text-align: center;
-width: max-content;
-margin-left: 20%;
-}
-.aboutBody{
-font-family: 'Slabo 27px', serif!important;
-font-size: 2rem!important;
-width: max-content;
-margin-left: 20%;
-}
-.iconDiv{
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  margin-left: -11%;
-  margin-top: 10%;
-}
-.icons{
-  width: 100px;
-  height: 100px;
-}
-.aboutMain{
-font-family: 'Slabo 27px', serif!important;
-font-size: 2rem!important;
-}
 /*contact*/
-.contactLink{
-  font-family: 'Slabo 27px', serif!important;
-  font-size: 2rem!important;
-  text-decoration: none;
-  color: #361aea;
-}
-.contactLink:hover{
-color: #7615f9!important;
--webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-}
-.contactHeading{
-  font-family: 'Ultra', serif!important;
-  font-size: 3.5rem!important;
-  text-decoration: none;
-  color: #361aea;
-}
-.contactText{
-font-family: 'Slabo 27px', serif!important;
-font-size: 2rem!important;
-}
-.contactIconDiv1{
-  align-items: center;
-  max-height: max-content;
-  justify-content: center;
-  display: flex;
-}
-.contactIconDiv2{
-  align-items: center;
-  max-height: max-content;
-  justify-content: center;
-  display: flex;
-}

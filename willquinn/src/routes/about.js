@@ -13,6 +13,7 @@ import css from "../assets/css.png";
 import './css/about.css'
 
 export default function About() {
+
    const Item = styled(Paper)(({ theme }) => ({
       boxShadow: "none",
       border: "none",
@@ -60,8 +61,10 @@ export default function About() {
           <Item>
          <div className="aboutMainDiv">
           <Typography className="aboutMain" variant="subtitle1" component="subtitle1" color="#361aea"
-          sx={{lineHeight: "40px"}}>
+          sx={{lineHeight: "40px", fontSize: "2rem"}}>
+            <div className="typedText">
             <p className="pLineOne">From a very young age I've had a keen interest in IT.</p>
+            </div>
             <p className="fade">Only until recently did I realise my potential and understood careers in IT aren't just for your Bill Gates or Steve Jobs types. I can excel here too.</p>  
             <p className="fade">After a brief stint in the navy trying to become a Communications Warfare Specialist was ended by a back injury, I decided it was time to challenge myself academically and try my luck at Computer science at AUT.</p> 
             <p className="fade">These days I wouldn't change anything, My experience through my degree has embedded a deep passion for problem solving, Web design/development, and creating products that me and my team can be proud of, and that our clients can enjoy.</p>

@@ -5,7 +5,6 @@ import { BottomNavigation } from '@mui/material';
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
 import Typography from '@mui/material/Typography';
-import boat from '../../assets/boat.png';
 //components and functions here
 function Footer() {
   return (
