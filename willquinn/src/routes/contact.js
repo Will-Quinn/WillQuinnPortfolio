@@ -85,7 +85,7 @@ export default function Contact() {
 
       </Grid>
     </Box>
-        <div className="footerDiv">
+        <div className="footerDiv2">
         <Footer />
         </div>
      </div>

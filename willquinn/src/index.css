@@ -102,8 +102,11 @@ color: #361aea;
 }
 .footerDiv{
 bottom: 0;
+width: 100%;
+}
+.footerDiv2{
+bottom: 0;
 position: fixed;
 width: 100%;
-height: max-content;
 }
 /*contact*/

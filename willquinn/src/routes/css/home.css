@@ -19,6 +19,9 @@ max-width: 98%;
 .homeText{
 font-family: 'Slabo 27px', serif!important;
 margin-right: auto;
+border-left: 5px solid #361aea;
+animation: 300ms linear borderIn;
+animation-timing-function: cubic-bezier(0.2,-2,0.8,2);
 }
 .cloud1{
   height: max-content;
@@ -171,11 +174,6 @@ width: max-content;
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 5px); }
     100%   { transform: translate(0, -0px); }   
-}
-.css-12o4gv0-MuiTypography-root{
-      border-left: 5px solid #361aea;
-    animation: 300ms linear borderIn;
-  animation-timing-function: cubic-bezier(0.2,-2,0.8,2);
 }
 @keyframes borderIn {
     from {
