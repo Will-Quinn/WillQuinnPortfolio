@@ -23,7 +23,6 @@ const Item = styled(Card)(() => ({
 }));
   return (
     <div className="projects">
-      <div className="animatedGradient">
       <NavBar />
       <Typography className="pageHeading" variant="h1" component="h1" color="#361aea"
       sx={{ 
@@ -31,7 +30,7 @@ const Item = styled(Card)(() => ({
       marginBottom: "5%"}}>
         Projects
       </Typography>
-      </div>
+          <div className="projectCards" sx={{marginBottom:"5%"}}>
           <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
             <Grid item xs={6}>
               <Item sx={{ 
@@ -125,7 +124,10 @@ const Item = styled(Card)(() => ({
               </Item>
             </Grid>
           </Grid>
+          </div>
+          <div className="footerDiv">
           <Footer />
+          </div>
         </div>
   );
 }

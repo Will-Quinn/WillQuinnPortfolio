@@ -42,7 +42,7 @@ export default function Contact() {
           sx={{marginLeft: "1%"}}>
             <a href="tel:0278828905" className="contactLink">027 882 8905</a>
           </Typography>
-          <Typography className="contactHeading" variant="h1" component="h1" color="#361aea"
+          <Typography className="contactHeading" variant="h1" component="h1" color="#361aea" 
           sx={{marginLeft: "1%", marginTop: "2%"}}>
             And...
           </Typography>
@@ -69,7 +69,7 @@ export default function Contact() {
           </div>               
           </div>
          <Typography className="contactText" variant="subtitle1" component="subtitle1" color="#361aea"
-          sx={{marginLeft: "1%"}}>
+          sx={{marginLeft: "1%",flexWrap: "wrap" }}>
             Lets get in Touch!
           </Typography>  
         </div>

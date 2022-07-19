@@ -61,7 +61,7 @@ export default function About() {
           <Item>
          <div className="aboutMainDiv">
           <Typography className="aboutMain" variant="subtitle1" component="subtitle1" color="#361aea"
-          sx={{lineHeight: "40px"}}>
+          sx={{lineHeight: "40px", fontSize: "2rem"}}>
             <div className="typedText">
             <p className="pLineOne">From a very young age I've had a keen interest in IT.</p>
             </div>
