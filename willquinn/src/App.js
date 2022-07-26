@@ -1,10 +1,12 @@
 
-import {Routes,Route, BrowserRouter } from 'react-router-dom'
+import {Routes,Route, BrowserRouter} from 'react-router-dom'
 import React from 'react';
 import Home from './routes/home';
 import About from './routes/about';
 import Contact from './routes/contact';
 import Projects from './routes/projects';
+import PageNotFound from './routes/pageNotFound';
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -18,6 +20,7 @@ export default function App() {
             <Route path="/About" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Projects" element={<Projects />} />
+            <Route path='*' element={<PageNotFound />} />
           </Routes>
         </div>
       </div>
