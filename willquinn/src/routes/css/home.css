@@ -1,8 +1,4 @@
-.birds{
-    width: 200px;
-    height:50px;
-    margin-top: -20%;
-}   
+
 .hi{
     animation: fadeinHi 3s;
     transition: ease-in-out;
@@ -165,10 +161,10 @@ width: max-content;
     100%   { transform: translate(0, -0px); }   
 }
 .me{
-    animation-name: floating3;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation: floating3!important;
+    animation-duration: 5s!important;
+    animation-iteration-count: infinite!important;
+    animation-timing-function: ease-in-out!important;
 }
 @keyframes floating3 {
     0% { transform: translate(0,  0px); }
