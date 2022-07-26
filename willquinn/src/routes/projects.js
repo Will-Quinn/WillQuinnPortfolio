@@ -1,5 +1,7 @@
 import * as React from 'react';
 import mapuche from '../assets/mapuche.png';
+import homePage from '../assets/homepage.png';
+import notFound from '../assets/notFound.png';
 import speed from '../assets/speed.png';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
@@ -76,6 +78,49 @@ const Item = styled(Card)(() => ({
                 </CardActions>
               </Card>
               </Item>
+                            <Item sx={{ 
+                margin: "2%", bgcolor: "#fcfcfd"}}>
+                <Card sx={{ 
+                  maxWidth: "100%", 
+                  bgcolor: "#fcfcfd",
+                  }}>
+                <CardMedia sx={{ 
+                  width: "95%", 
+                  margin: "2%", 
+                  marginLeft: "auto", 
+                  marginRight: "auto",
+                  padding: "1%",
+                  borderLeft: "5px solid #361aea",}}
+                  component="img"
+                  alt="Will Quinn portfolio Homepage"
+                  image={homePage}
+                  imageStyle={{objectFit: 'scale-down'}}
+                  className="mapucheCard"
+                />
+                <CardContent sx={{ 
+                  bgcolor: "#fcfcfd",
+                  color: "#361aea"}}>
+                  <Typography className = "typographyHeading" gutterBottom variant="h5" component="div">
+                    Will Quinn Portfolio Website
+                  </Typography>
+                  <Typography className = "typographyBody" variant="body2" color="#361aea">
+                    My portfolio website was made to showcase my skills and projects. It was made using the Material-UI framework and React.js. 
+                    My plan is for this to be an on-going project, so I will be updating the website as I learn more about React, JavaScript, and Material-UI.
+                    I will definitely try to add in some javascript functionality to the website where I can.
+                  </Typography>
+                </CardContent>
+                <CardActions sx={{ 
+                  bgcolor: "#fcfcfd", 
+                  color: "#361aea",
+                  border: "none", 
+                  borderRadius: "none"}}>
+                  <div className="buttonContainer">
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://willquinn.netlify.app/'>View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/Will-Quinn/WillQuinnPortfolio'>View Repository</Button>
+                  </div>
+                </CardActions>
+              </Card>
+              </Item>
             </Grid>
             <Grid item xs={6}>
               <Item sx={{ 
@@ -118,6 +163,48 @@ const Item = styled(Card)(() => ({
                   <div className="buttonContainer">
                   <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://speed-cise-team7.herokuapp.com/'>View Website</Button>
                   <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/Will-Quinn/SPEED_Assgt1B'>View Repository</Button>
+                  </div>
+                </CardActions>
+              </Card>
+              </Item>
+                                          <Item sx={{ 
+                margin: "2%", bgcolor: "#fcfcfd"}}>
+                <Card sx={{ 
+                  maxWidth: "100%", 
+                  bgcolor: "#fcfcfd",
+                  }}>
+                <CardMedia sx={{ 
+                  width: "95%", 
+                  margin: "2%", 
+                  marginLeft: "auto", 
+                  marginRight: "auto",
+                  padding: "1%",
+                  borderLeft: "5px solid #361aea",}}
+                  component="img"
+                  alt="Will Quinn portfolio Homepage"
+                  image={notFound}
+                  imageStyle={{objectFit: 'scale-down'}}
+                  className="mapucheCard"
+                />
+                <CardContent sx={{ 
+                  bgcolor: "#fcfcfd",
+                  color: "#361aea"}}>
+                  <Typography className = "typographyHeading" gutterBottom variant="h5" component="div">
+                    Flip Tracker
+                  </Typography>
+                  <Typography className = "typographyBody" variant="body2" color="#361aea">
+                    The Flip Tracker is a project that I am currently undertaking for my own personal use to keep track of my flips, buying and selling items on the market within the game Runescape.
+                    This will be made using the MERN stack and will make use of MongoDB databases and javascript functions needed for calculations and data manipulation.
+                  </Typography>
+                </CardContent>
+                <CardActions sx={{ 
+                  bgcolor: "#fcfcfd", 
+                  color: "#361aea",
+                  border: "none", 
+                  borderRadius: "none"}}>
+                  <div className="buttonContainer">
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://willquinn.netlify.app/PageNotFound'>View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://willquinn.netlify.app/PageNotFound'>View Repository</Button>
                   </div>
                 </CardActions>
               </Card>

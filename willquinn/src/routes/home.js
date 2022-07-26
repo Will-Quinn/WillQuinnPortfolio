@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from './shared/NavBar';
 import Footer from './shared/footer';
-import { Avatar, Typography } from "@mui/material";
+import {Typography } from "@mui/material";
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import me from '../assets/me.png';
