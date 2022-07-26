@@ -10,11 +10,12 @@
 /*home*/
 .homeIntro{
 margin-top: 50%;
-margin-left: 10%;
+margin-left: 13%;
 }
 .homeAbout{
-margin-top: 65%;
+margin-top: 63%;
 max-width: 98%;
+margin-left: -5%;
 }
 .homeText{
 font-family: 'Slabo 27px', serif!important;
@@ -52,13 +53,12 @@ animation-timing-function: cubic-bezier(0.2,-2,0.8,2);
 font-family: 'Slabo 27px', serif!important;
 font-size: 2rem!important;
 height: max-content;
-width: max-content;
 color: #361aea;
+margin-left: 40%!important;
 }
 .hi2{
 font-family: 'Slabo 27px', serif!important;
 height: max-content;
-width: max-content;
 color: #361aea;
 display: inline-block;
 }

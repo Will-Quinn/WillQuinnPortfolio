@@ -17,18 +17,18 @@ export default function Home(){
       /* add grid */
  <div className="home">
         <NavBar />
-    <Box sx={{ width: '100%',flexWrap: "wrap" }}>
+    <Box sx={{ width: '100%'}}>
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={4}>
-        <div className="homeIntro" sx={{flexWrap: "wrap", textAlign: "center"}}>
-          <Typography className="hi" variant="subtitle1" component="subtitle1" color="#361aea" sx ={{width: "100%",height: "auto",maxWidth: "100%", marginLeft: "30%"}}>
+        <div className="homeIntro" sx={{}}>
+          <Typography className="hi" variant="subtitle1" component="subtitle1" color="#361aea" sx ={{width: "100%",height: "auto",maxWidth: "100%"}}>
             Hi, I'm
           </Typography>
-          <Typography className="name" variant="h1" component="h1" color="#361aea" sx ={{fontSize: "4.5rem", width: "100%",height: "auto",maxWidth: "100%"}}>
+          <Typography className="name" variant="h1" component="h1" color="#361aea" sx ={{fontSize: "4.5rem", width: "100%",height: "auto",maxWidth: "100%", textAlign: "center"}}>
             Will Quinn
           </Typography>
           <Typography className="hi2" variant="subtitle2" component="subtitle2" color="#361aea" sx={{ fontSize: "1.5rem", width: "100%",height: "auto", maxWidth: "100%", textAlign: "center"}}>
-            <p sx={{marginLeft: "-60%"}}>Bachelor of Computer and Information Sciences in Software Development</p>
+            <p sx={{marginLeft: "-65%"}}>Bachelor of Computer and Information Sciences in Software Development</p>
           </Typography>
         </div>
         </Grid>
@@ -46,7 +46,7 @@ export default function Home(){
         </Grid>
         <Grid item xs={4}>
         <div className="homeAbout" sx={{margin: "25%",width: "100%",height: "auto",maxWidth: "100%"}}>
-          <Typography className="homeText" variant="h2" component="h2" color="#361aea" sx={{ fontSize: "1.5rem" }}>
+          <Typography className="homeText" variant="h2" component="h2" color="#361aea" sx={{ fontSize: "1.5rem", width: "max-content" }}>
             <p>A love for learning and a passion for technology.</p> 
             <p>Searching for opportunities to surround myself with great people</p> 
             <p>who can nurture my skills and grow my career.</p>
