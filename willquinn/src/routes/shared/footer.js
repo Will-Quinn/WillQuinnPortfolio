@@ -15,14 +15,14 @@ function Footer() {
         </Typography>
         </div>
         <div className = "svgDiv">
-        <Link className = "svg"  href={"https://www.linkedin.com/in/william-quinn-03694a218/"}>
+        <Link className = "svg"  href={"https://www.linkedin.com/in/william-quinn-03694a218/"} target="_blank">
           <Avatar sx={{ width: "2.5rem", height: "2.5rem"}}
             alt="linkedin"
             src={linkedin}
             variant="square"
           />
         </Link>
-        <Link className = "svg" href={"https://github.com/Will-Quinn"}>
+        <Link className = "svg" href={"https://github.com/Will-Quinn"} target="_blank">
           <Avatar sx={{ width: "2.5rem", height: "2.5rem"}}
             alt="github"
             src={github}

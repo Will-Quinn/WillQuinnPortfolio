@@ -72,8 +72,8 @@ const Item = styled(Card)(() => ({
                   border: "none", 
                   borderRadius: "none"}}>
                   <div className="buttonContainer">
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://mapuche-art.web.app/'>View Website</Button>
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/maxventer00/mapuche-art-school'>View Repository</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://mapuche-art.web.app/' target="_blank">View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/maxventer00/mapuche-art-school' target="_blank">View Repository</Button>
                   </div>
                 </CardActions>
               </Card>
@@ -115,8 +115,8 @@ const Item = styled(Card)(() => ({
                   border: "none", 
                   borderRadius: "none"}}>
                   <div className="buttonContainer">
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://willquinn.netlify.app/'>View Website</Button>
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/Will-Quinn/WillQuinnPortfolio'>View Repository</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://willquinn.netlify.app/' target="_blank">View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/Will-Quinn/WillQuinnPortfolio' target="_blank">View Repository</Button>
                   </div>
                 </CardActions>
               </Card>
@@ -161,8 +161,8 @@ const Item = styled(Card)(() => ({
                 border: "none",
                 borderRadius: "none"}}>
                   <div className="buttonContainer">
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://speed-cise-team7.herokuapp.com/'>View Website</Button>
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/Will-Quinn/SPEED_Assgt1B'>View Repository</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://speed-cise-team7.herokuapp.com/' target="_blank">View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/Will-Quinn/SPEED_Assgt1B' target="_blank">View Repository</Button>
                   </div>
                 </CardActions>
               </Card>
@@ -203,8 +203,8 @@ const Item = styled(Card)(() => ({
                   border: "none", 
                   borderRadius: "none"}}>
                   <div className="buttonContainer">
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://willquinn.netlify.app/PageNotFound'>View Website</Button>
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://willquinn.netlify.app/PageNotFound'>View Repository</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://willquinn.netlify.app/PageNotFound' target="_blank">View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://willquinn.netlify.app/PageNotFound' target="_blank">View Repository</Button>
                   </div>
                 </CardActions>
               </Card>

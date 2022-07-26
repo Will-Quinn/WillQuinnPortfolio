@@ -37,16 +37,16 @@ export default function About() {
             Me
           </Typography>
           <div className="iconDiv">
-          <Link href={"https://www.javascript.com/"}>
+          <Link href={"https://www.javascript.com/"} target="_blank">
             <img className="icons" src={js} alt="Javascript"/>
           </Link>
-          <Link href={"https://www.typescriptlang.org/"}>
+          <Link href={"https://www.typescriptlang.org/"} target="_blank">
             <img className="icons" src={ts} alt="Typescript"/>
           </Link>
-          <Link href={"https://reactjs.org/"}>
+          <Link href={"https://reactjs.org/"} target="_blank">
             <img className="icons" src={react} alt="React"/>
           </Link>
-          <Link href={"https://developer.mozilla.org/en-US/docs/Web/CSS"}>
+          <Link href={"https://developer.mozilla.org/en-US/docs/Web/CSS"} target="_blank">
             <img className="icons" src={css} alt="CSS"/>
           </Link>                    
           </div>

@@ -54,7 +54,7 @@ export default function Contact() {
             src={linkedinBlue}
             variant="square"
             />
-            <a href="https://www.linkedin.com/in/william-quinn-03694a218/" className="contactLink">linkedin</a>
+            <a href="https://www.linkedin.com/in/william-quinn-03694a218/" className="contactLink" rel="noreferrer" target="_blank">linkedin</a>
           </Typography>
           </div>   
           <div className="contactIconDiv2">
@@ -64,7 +64,7 @@ export default function Contact() {
             src={githubBlue}
             variant="square"
             />
-            <a href="https://github.com/Will-Quinn" className="contactLink">Github</a>
+            <a href="https://github.com/Will-Quinn" className="contactLink" rel="noreferrer" target="_blank">Github</a>
           </Typography>   
           </div>               
           </div>
