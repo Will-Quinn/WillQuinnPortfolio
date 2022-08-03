@@ -1,7 +1,7 @@
 import * as React from 'react';
 import mapuche from '../assets/mapuche.png';
 import homePage from '../assets/homepage.png';
-import notFound from '../assets/notFound.png';
+import fliptracker from '../assets/fliptracker.png';
 import speed from '../assets/speed.png';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
@@ -182,7 +182,7 @@ const Item = styled(Card)(() => ({
                   borderLeft: "5px solid #361aea",}}
                   component="img"
                   alt="Will Quinn portfolio Homepage"
-                  image={notFound}
+                  image={fliptracker}
                   imageStyle={{objectFit: 'scale-down'}}
                   className="mapucheCard"
                 />
