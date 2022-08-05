@@ -203,7 +203,7 @@ const Item = styled(Card)(() => ({
                   border: "none", 
                   borderRadius: "none"}}>
                   <div className="buttonContainer">
-                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" onClick={() => alert('Website not released yet. Please view repository instead :)')}>View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://fliptracker.netlify.app/' target="_blank">View Website</Button>
                   <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/Will-Quinn/FlipTracker' target="_blank">View Repository</Button>
                   </div>
                 </CardActions>
