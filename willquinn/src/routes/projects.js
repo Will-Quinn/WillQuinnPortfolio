@@ -2,6 +2,7 @@ import * as React from 'react';
 import mapuche from '../assets/mapuche.png';
 import homePage from '../assets/homepage.png';
 import fliptracker from '../assets/fliptracker.png';
+import budgetmate from '../assets/BudgetMate.png'
 import speed from '../assets/speed.png';
 import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
@@ -205,6 +206,51 @@ const Item = styled(Card)(() => ({
                   <div className="buttonContainer">
                   <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://fliptracker.netlify.app/' target="_blank">View Website</Button>
                   <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/Will-Quinn/FlipTracker' target="_blank">View Repository</Button>
+                  </div>
+                </CardActions>
+              </Card>
+              </Item>
+            </Grid>
+                        <Grid item xs={6}>
+              <Item sx={{ 
+              margin: "2%",
+              bgcolor: "#fcfcfd"}}>
+                <Card ClassName = "card" sx={{ 
+                maxWidth: "100%",
+                bgcolor: "#fcfcfd"}}>
+                <CardMedia sx={{
+                  width: "95%",
+                  margin: "2%",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  padding: "1%",
+                  borderLeft: "5px solid #361aea",}}
+                  component="img"
+                  alt="BudgetMate"
+                  image={budgetmate}
+                  imageStyle={{ objectFit: 'scale-down' }}
+                  className="mapucheCard"
+                />
+                <CardContent sx={{ 
+                  bgcolor: "#fcfcfd",
+                  color: "#361aea",
+                  borderRadius: "none"}}>
+                  <Typography className = "typographyHeading" gutterBottom variant="h5" component="div">
+                    BudgetMate
+                  </Typography>
+                  <Typography className = "typographyBody" variant="body2" color="#361aea">
+                    BudgetMate was a project that I decided to undertake recently when I was asked by a family member to do their budgetting on Excel spreadsheets. I told them I could make them a website that does the same thing
+                    And will be easier to use when I'm not there to guide them. I plan to add much more to the project so that everything they could possibly need is covered.
+                  </Typography>
+                </CardContent>
+                <CardActions sx={{ 
+                bgcolor: "#fcfcfd",
+                color: "#361aea",
+                border: "none",
+                borderRadius: "none"}}>
+                  <div className="buttonContainer">
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://632bdd02e40cb934958ce152--budgetmate.netlify.app/' target="_blank">View Website</Button>
+                  <Button sx={{ color: "#fcfcfd", bgcolor: "#361aea", margin: "0.5rem"}} className = "button" size="small" href='https://github.com/Will-Quinn/budgetMate' target="_blank">View Repository</Button>
                   </div>
                 </CardActions>
               </Card>
