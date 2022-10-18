@@ -375,12 +375,12 @@ function Projects() {
                     variant="body2"
                     color="#361aea"
                   >
-                    The Flip Tracker is a project that I am currently
-                    undertaking for my own personal use to keep track of my
-                    flips, buying and selling items on the market within the
-                    game Runescape. This will be made using the MERN stack and
-                    will make use of MongoDB databases and javascript functions
-                    needed for calculations and data manipulation.
+                    The Flip Tracker is a project for my own personal use to
+                    keep track of my flips, buying and selling items on the
+                    market within the game Runescape. This will be made using
+                    the MERN stack and will make use of MongoDB databases and
+                    javascript functions needed for calculations and data
+                    manipulation. (With netlify hosting MongoDB isnt working)
                   </Typography>
                 </CardContent>
                 <CardActions
@@ -475,7 +475,7 @@ function Projects() {
                     BudgetMate was a project that I decided to undertake
                     recently when I was asked by a family member to do their
                     budgetting on Excel spreadsheets. I told them I could make
-                    them a website that does the same thing And will be easier
+                    them a website that does the same thing which will be easier
                     to use when I'm not there to guide them. I plan to add much
                     more to the project so that everything they could possibly
                     need is covered.
@@ -571,13 +571,13 @@ function Projects() {
                     color="#361aea"
                   >
                     Unicars is a project that I and a team of 2 other students
-                    developed in 2021 during my first web development paper at
-                    uni. this was my introduction to web development and the
-                    level of skill demonstrated in the project reflects it. The
-                    project was intended to be a car dealership website aimed at
-                    students. We used Javasript and PHP for the back end and
-                    even implemented google maps and login API's. Ignore the
-                    terrible colour and design.
+                    developed in 2021 during our first web development paper at
+                    uni. This was our first taste of web development which is
+                    reflected in the quality of the website. The project was
+                    intended to be a car dealership website aimed at students.
+                    We used Javasript, HTML and CSS for the frontend and AJAX
+                    PHP for the back end, and made use of googles login and maps
+                    api's.
                   </Typography>
                 </CardContent>
                 <CardActions
