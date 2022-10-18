@@ -498,7 +498,7 @@ function Projects() {
                       }}
                       className="button"
                       size="small"
-                      href="https://632bdd02e40cb934958ce152--budgetmate.netlify.app/"
+                      href="https://budgetmate.netlify.app/"
                       target="_blank"
                     >
                       View Website
