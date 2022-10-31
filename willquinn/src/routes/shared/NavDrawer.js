@@ -81,7 +81,7 @@ export default function NavDrawer() {
   );
 
   return (
-    <div sx={{ width: "100%" }}>
+    <div>
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           <MenuIcon

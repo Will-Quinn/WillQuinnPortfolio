@@ -72,7 +72,7 @@ function NavBar() {
             Contact
           </NavLink>
         </NavLinks>
-        <Burger sx={{ marginLeft: "31%" }}>
+        <Burger sx={{ marginLeft: "42%" }}>
           <NavDrawer></NavDrawer>
         </Burger>
       </Toolbar>

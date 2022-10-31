@@ -8,7 +8,15 @@ a:active {
 }
 .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
   box-shadow: none !important;
-  width: 100%;
+  width: 100%!important;
+  height: 100%!important;
+  background-color: #d4e5f9!important;
+  justify-content: center;
+}
+.css-1ab2xsx {
+  box-shadow: none !important;
+  width: 100%!important;
+  height: 100%!important;
   background-color: #d4e5f9!important;
   justify-content: center;
 }
