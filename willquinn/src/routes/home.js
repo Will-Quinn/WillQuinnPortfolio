@@ -180,7 +180,6 @@ export default function Home() {
                 marginTop: "-50%",
                 marginLeft: "-10%",
                 borderRadius: "50%",
-                position: "absolute",
                 zIndex: "-1",
               }}
             />
@@ -220,11 +219,9 @@ export default function Home() {
             </Box>
           </div>
           <div
-            className="homeAbout"
+            className="homeAboutMobile"
             sx={{
-              margin: "25%",
               width: "100%",
-              height: "auto",
               maxWidth: "100%",
             }}
           >
@@ -233,7 +230,7 @@ export default function Home() {
               variant="h2"
               component="h2"
               color="#361aea"
-              sx={{ fontSize: "1.3rem", width: "100%" }}
+              sx={{ fontSize: "1.1rem", width: "100%" }}
             >
               <p>A love for learning and a passion for technology.</p>
               <p>
