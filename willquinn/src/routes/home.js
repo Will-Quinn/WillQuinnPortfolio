@@ -168,22 +168,31 @@ export default function Home() {
       </MonitorBox>
       <MobileBox sx={{ width: "100%" }}>
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-          <div className="homeIntro">
-            <Image
-              className="me"
-              alt="Will Quinn"
-              src={me}
+          <div className="homeIntro" sx={{ justifyContent: "center" }}>
+            <Box
               sx={{
-                maxHeight: "100%",
-                maxWidth: "100%",
-                textAlign: "center",
-                marginTop: "-50%",
-                marginLeft: "-10%",
-                borderRadius: "50%",
-                zIndex: "-1",
+                width: "50%",
+                height: "75%",
+                justifyContent: "center",
+                margin: "0 auto",
+                marginLeft: "20%",
               }}
-            />
-            <Box sx={{ marginTop: "-25%" }}>
+            >
+              <Image
+                className="me"
+                alt="Will Quinn"
+                src={me}
+                sx={{
+                  maxHeight: "100%",
+                  maxWidth: "100%",
+                  textAlign: "center",
+                  marginTop: "-50%",
+                  borderRadius: "100%",
+                  zIndex: "-1",
+                }}
+              />
+            </Box>
+            <Box sx={{ marginTop: "-10%" }}>
               <Typography
                 className="name"
                 variant="h1"
