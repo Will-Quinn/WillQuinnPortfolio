@@ -5,13 +5,13 @@
 }
 /*home*/
 .homeIntro{
-margin-top: 50%;
+margin-top: 80%;
 margin-left: 13%;
 }
 .homeAbout{
-margin-top: 63%;
+margin-top: 25%;
 max-width: 98%;
-margin-left: -5%;
+margin-left: 10%;
 }
 .homeText{
 font-family: 'Slabo 27px', serif!important;
@@ -47,10 +47,6 @@ animation-timing-function: cubic-bezier(0.2,-2,0.8,2);
 }
 .hi{
 font-family: 'Slabo 27px', serif!important;
-font-size: 2rem!important;
-height: max-content;
-color: #361aea;
-margin-left: 40%!important;
 }
 .hi2{
 font-family: 'Slabo 27px', serif!important;
@@ -60,9 +56,6 @@ display: inline-block;
 }
 .name{
 font-family: 'Ultra', serif!important;
-font-size: 5rem;
-height: max-content;
-width: max-content;
 }
 @keyframes fadeinHi {
     from {
@@ -103,7 +96,7 @@ width: max-content;
 }
 @media only screen and (max-width: 1000px){
     .name{
-        font-size: 3rem!important;
+        font-size: 3rem;
     }
 }
 @keyframes fadeinName {
