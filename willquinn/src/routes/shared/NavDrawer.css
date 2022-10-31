@@ -1,0 +1,48 @@
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  box-shadow: none !important;
+  width: 100%;
+  background-color: #d4e5f9!important;
+  justify-content: center;
+}
+.css-1vfk20j-MuiTypography-root {
+  margin: 0 !important;
+  font-weight: 500 !important;
+  font-size: 1.2rem !important;
+  line-height: 1.5 !important;
+  display: block !important;
+}
+.css-185z3ai-MuiPaper-root {
+  margin-bottom: 0.75% !important;
+}
+.drawerBox {
+  font-weight: 700;
+}
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: #361aea !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  color: #361aea !important;
+  border-color: #361aea !important;
+}
+.drawerLinks{
+  color: #361aea !important;
+}
+.css-r83loa-MuiListItem-root{
+  color: #361aea !important;
+}
+.drawerLink:hover{
+color: #7615f9!important;
+-webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.burger:hover{
+color: #7615f9!important;
+-webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}

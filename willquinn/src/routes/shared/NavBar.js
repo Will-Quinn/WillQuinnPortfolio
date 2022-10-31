@@ -1,14 +1,31 @@
 //imports
 import React from "react";
-import { AppBar, Avatar, Link, Toolbar } from "@mui/material";
+import { AppBar, Avatar, Box, Link, Toolbar } from "@mui/material";
 import logo from "../../assets/logo.png";
 import { NavLink } from "react-router-dom";
 import NavDrawer from "./NavDrawer";
+import { styled } from "@mui/material";
 //components and functions here
 function NavBar() {
+  const Burger = styled(Box)(({ theme }) => ({
+    [theme.breakpoints.down("sm")]: {
+      display: "block",
+    },
+    [theme.breakpoints.up("sm")]: {
+      display: "none",
+    },
+  }));
+  const NavLinks = styled(Box)(({ theme }) => ({
+    [theme.breakpoints.down("sm")]: {
+      display: "none",
+    },
+    [theme.breakpoints.up("sm")]: {
+      display: "block",
+    },
+  }));
   return (
     <AppBar sx={{ background: 0, color: 0, boxShadow: 0 }} position="absolute">
-      <Toolbar className="toolbar">
+      <Toolbar className="toolbar" justify="space-between">
         <Link href={"/"}>
           <Avatar
             sx={{
@@ -17,6 +34,7 @@ function NavBar() {
               margin: "0.5rem",
               padding: "1%",
               borderLeft: "5px solid #361aea",
+              float: "left",
             }}
             className="logo"
             alt="logo"
@@ -24,14 +42,7 @@ function NavBar() {
             variant="square"
           />
         </Link>
-        <div
-          className="navLinks"
-          sx={{
-            "@media only screen and (max-device-width: 1000px)": {
-              marginLeft: "30%",
-            },
-          }}
-        >
+        <NavLinks className="navLinks">
           <NavLink
             className="barLink"
             to="/"
@@ -60,8 +71,10 @@ function NavBar() {
           >
             Contact
           </NavLink>
-        </div>
-        <NavDrawer></NavDrawer>
+        </NavLinks>
+        <Burger sx={{ marginLeft: "31%" }}>
+          <NavDrawer></NavDrawer>
+        </Burger>
       </Toolbar>
     </AppBar>
   );

@@ -5,11 +5,15 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
+import "./NavDrawer.css";
+
 export default function NavDrawer() {
+  const styles = {
+    drawerPaper: {
+      width: "100%",
+    },
+  };
   const [state, setState] = React.useState({
-    top: false,
-    left: false,
-    bottom: false,
     right: false,
   });
 
@@ -20,21 +24,56 @@ export default function NavDrawer() {
     ) {
       return;
     }
-
     setState({ ...state, [anchor]: open });
   };
 
   const list = (anchor) => (
     <Box
-      sx={{ width: anchor === "top" || anchor === "bottom" ? "auto" : 250 }}
+      sx={{
+        width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
+        background: 0,
+        top: "4rem",
+        boxShadow: "none",
+      }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
-        <Link sx={{ fontSize: "1.5rem" }} to="/home">
-          <ListItem key="account" sx={{ fontSize: "1.5rem" }}>
+      <List className="navLinks">
+        <Link to="/">
+          <ListItem
+            className="drawerLink"
+            key="account"
+            sx={{ fontSize: "3rem", color: "#361aea" }}
+          >
             Home
+          </ListItem>
+        </Link>
+        <Link to="/About">
+          <ListItem
+            className="drawerLink"
+            key="account"
+            sx={{ fontSize: "3rem", color: "#361aea" }}
+          >
+            About
+          </ListItem>
+        </Link>
+        <Link to="/Projects">
+          <ListItem
+            className="drawerLink"
+            key="account"
+            sx={{ fontSize: "3rem", color: "#361aea" }}
+          >
+            Projects
+          </ListItem>
+        </Link>
+        <Link to="/Contact">
+          <ListItem
+            className="drawerLink"
+            key="account"
+            sx={{ fontSize: "3rem", color: "#361aea" }}
+          >
+            Contact
           </ListItem>
         </Link>
       </List>
@@ -42,11 +81,16 @@ export default function NavDrawer() {
   );
 
   return (
-    <div>
+    <div sx={{ width: "100%" }}>
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           <MenuIcon
-            sx={{ color: "#361aea", height: "10vh", width: "10vh" }}
+            className="burger"
+            sx={{
+              color: "#361aea",
+              height: "15vh",
+              width: "15vh",
+            }}
             onClick={toggleDrawer(anchor, true)}
             fontSize="large"
           >
@@ -56,6 +100,7 @@ export default function NavDrawer() {
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
+            BackdropProps={{ invisible: true }}
           >
             {list(anchor)}
           </Drawer>
