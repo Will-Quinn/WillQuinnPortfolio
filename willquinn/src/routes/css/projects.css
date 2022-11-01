@@ -79,6 +79,8 @@ margin-top: 40%!important;
     color: rgb(252, 252, 253)!important;
 }
 a{
-    color: rgb(252, 252, 253)!important;
     text-align: center;
+}
+.buttonContainer{
+    color: rgb(252, 252, 253)!important;
 }
