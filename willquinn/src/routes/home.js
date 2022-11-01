@@ -250,7 +250,6 @@ export default function Home() {
           </div>
         </Grid>
       </MobileBox>
-
       <div className="footerDiv2">
         <Footer />
       </div>
