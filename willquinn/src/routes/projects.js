@@ -208,10 +208,10 @@ function Projects() {
                     >
                       My portfolio website was made to showcase my skills and
                       projects. It was made using the Material-UI framework and
-                      React.js. My plan is for this to be an on-going project,
-                      so I will be updating the website as I learn more about
+                      React.js. My plan is for this to be an ongoing project, so
+                      I will be updating the website as I learn more about
                       React, JavaScript, and Material-UI. I will definitely try
-                      to add in some javascript functionality to the website
+                      to add in some JavaScript functionality to the website
                       where I can.
                     </Typography>
                   </CardContent>
@@ -402,8 +402,8 @@ function Projects() {
                       keep track of my flips, buying and selling items on the
                       market within the game Runescape. This will be made using
                       the MERN stack and will make use of MongoDB databases and
-                      javascript functions needed for calculations and data
-                      manipulation. (With netlify hosting MongoDB isnt working)
+                      Javascript functions needed for calculations and data
+                      manipulation. (With Netlify hosting MongoDB isn't working)
                     </Typography>
                   </CardContent>
                   <CardActions
@@ -497,10 +497,10 @@ function Projects() {
                     >
                       BudgetMate was a project that I decided to undertake
                       recently when I was asked by a family member to do their
-                      budgetting on Excel spreadsheets. I told them I could make
-                      them a website that does the same thing which will be
-                      easier to use when I'm not there to guide them. I plan to
-                      add much more to the project so that everything they could
+                      budgeting on Excel spreadsheets. I told them I could make
+                      a website that does the same thing, which will be easier
+                      to use when I'm not there to guide them. I plan to add
+                      much more to the project so that everything they could
                       possibly need is covered.
                     </Typography>
                   </CardContent>
@@ -599,8 +599,8 @@ function Projects() {
                       is reflected in the quality of the website. The project
                       was intended to be a car dealership website aimed at
                       students. We used Javasript, HTML and CSS for the frontend
-                      and AJAX PHP for the back end, and made use of googles
-                      login and maps api's.
+                      and AJAX PHP for the back end, and made use of Googles
+                      login and maps API's.
                     </Typography>
                   </CardContent>
                   <CardActions
@@ -788,10 +788,10 @@ function Projects() {
                 >
                   My portfolio website was made to showcase my skills and
                   projects. It was made using the Material-UI framework and
-                  React.js. My plan is for this to be an on-going project, so I
+                  React.js. My plan is for this to be an ongoing project, so I
                   will be updating the website as I learn more about React,
                   JavaScript, and Material-UI. I will definitely try to add in
-                  some javascript functionality to the website where I can.
+                  some JavaScript functionality to the website where I can.
                 </Typography>
               </CardContent>
               <CardActions
@@ -978,9 +978,9 @@ function Projects() {
                   The Flip Tracker is a project for my own personal use to keep
                   track of my flips, buying and selling items on the market
                   within the game Runescape. This will be made using the MERN
-                  stack and will make use of MongoDB databases and javascript
+                  stack and will make use of MongoDB databases and Javascript
                   functions needed for calculations and data manipulation. (With
-                  netlify hosting MongoDB isnt working)
+                  Netlify hosting MongoDB isn't working)
                 </Typography>
               </CardContent>
               <CardActions
@@ -1071,12 +1071,11 @@ function Projects() {
                   color="#361aea"
                 >
                   BudgetMate was a project that I decided to undertake recently
-                  when I was asked by a family member to do their budgetting on
-                  Excel spreadsheets. I told them I could make them a website
-                  that does the same thing which will be easier to use when I'm
-                  not there to guide them. I plan to add much more to the
-                  project so that everything they could possibly need is
-                  covered.
+                  when I was asked by a family member to do their budgeting on
+                  Excel spreadsheets. I told them I could make a website that
+                  does the same thing, which will be easier to use when I'm not
+                  there to guide them. I plan to add much more to the project so
+                  that everything they could possibly need is covered.
                 </Typography>
               </CardContent>
               <CardActions
@@ -1172,7 +1171,7 @@ function Projects() {
                   reflected in the quality of the website. The project was
                   intended to be a car dealership website aimed at students. We
                   used Javasript, HTML and CSS for the frontend and AJAX PHP for
-                  the back end, and made use of googles login and maps api's.
+                  the back end, and made use of Googles login and maps API's.
                 </Typography>
               </CardContent>
               <CardActions

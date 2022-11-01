@@ -160,7 +160,7 @@ export default function Home() {
                   Searching for opportunities to surround myself with great
                   people
                 </p>
-                <p>who can nurture my skills and grow my career.</p>
+                <p>who can nurture my skills and aid my progression.</p>
               </Typography>
             </div>
           </AboutGrid>

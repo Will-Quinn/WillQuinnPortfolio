@@ -105,7 +105,7 @@ export default function About() {
                 >
                   <div className="typedText">
                     <p className="pLineOne">
-                      From a very young age I've had a keen interest in IT.
+                      From a very young age, I've had a keen interest in IT.
                     </p>
                   </div>
                   <p className="fade">
@@ -115,15 +115,15 @@ export default function About() {
                   </p>
                   <p className="fade">
                     After a brief stint in the navy trying to become a
-                    Communications Warfare Specialist was ended by a back
-                    injury, I decided it was time to challenge myself
-                    academically and try my luck at Computer science at AUT.
+                    Communications Warfare Specialist, I decided it was time to
+                    challenge myself academically and try my luck at Computer
+                    Science at AUT.
                   </p>
                   <p className="fade">
                     These days I wouldn't change anything, My experience through
                     my degree has embedded a deep passion for problem solving,
                     Web design/development, and creating products that me and my
-                    team can be proud of, and that our clients can enjoy.
+                    team can be proud of, and that clients can enjoy.
                   </p>
                 </Typography>
               </div>
@@ -155,7 +155,7 @@ export default function About() {
                 >
                   <div className="typedText">
                     <p className="pLineOne">
-                      From a very young age I've had a keen interest in IT.
+                      From a very young age, I've had a keen interest in IT.
                     </p>
                   </div>
                   <p className="fade">
@@ -165,15 +165,15 @@ export default function About() {
                   </p>
                   <p className="fade">
                     After a brief stint in the navy trying to become a
-                    Communications Warfare Specialist was ended by a back
-                    injury, I decided it was time to challenge myself
-                    academically and try my luck at Computer science at AUT.
+                    Communications Warfare Specialist, I decided it was time to
+                    challenge myself academically and try my luck at Computer
+                    Science at AUT.
                   </p>
                   <p className="fade">
                     These days I wouldn't change anything, My experience through
                     my degree has embedded a deep passion for problem solving,
                     Web design/development, and creating products that me and my
-                    team can be proud of, and that our clients can enjoy.
+                    team can be proud of, and that clients can enjoy.
                   </p>
                 </Typography>
               </Box>
